@@ -20,7 +20,7 @@ Es archivo en formato de texto que oculta ciertas carpetas a los robots de busqu
 
 2.dentro de la pagina en la URL seguido del / ponemos la siguiente ruta: robots.txt
 
-![Captura de pantalla 2](Captura-de-pantalla-2026-09-07-205641.png)
+![Captura de pantalla 2](Captura de pantalla 2026-09-07 205641.png)
 
 3. en esta archivo de texto podemos ver multiples rutas  de carpetas en este LAB la solucion esta en la primera ruta (En el analizis de posibles vulnerabilidades es mejor investigar todas las carpetas posibles y a detalle)
 
