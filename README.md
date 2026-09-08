@@ -12,13 +12,15 @@ Este desafío es principalmente una vulnerabilidad de divulgación de informaci�
 
 1.iniciamos el LAB y accedemos a la web vulnerable
 
-![Captura de pantalla 1]()
+![Captura de pantalla 1](VirtualBox_kali-linux-2025.4-virtualbox-amd64_07_09_2026_21_06_35.png)
 
 (Antes de seguir aclaremos algo.
 ¿Que es robots.txt?
 Es archivo en formato de texto que oculta ciertas carpetas a los robots de busquedas, aun que mayormente se usa para guardar carpetas sencibles ejemplo /Pnale-Admin/)
 
 2.dentro de la pagina en la URL seguido del / ponemos la siguiente ruta: robots.txt
+
+![Captura de pantalla 2]()
 
 3. en esta archivo de texto podemos ver multiples rutas  de carpetas en este LAB la solucion esta en la primera ruta (En el analizis de posibles vulnerabilidades es mejor investigar todas las carpetas posibles y a detalle)
 
