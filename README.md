@@ -12,6 +12,8 @@ Este desafío es principalmente una vulnerabilidad de divulgación de informaci�
 
 1.iniciamos el LAB y accedemos a la web vulnerable
 
+![Captura de pantalla 1]()
+
 (Antes de seguir aclaremos algo.
 ¿Que es robots.txt?
 Es archivo en formato de texto que oculta ciertas carpetas a los robots de busquedas, aun que mayormente se usa para guardar carpetas sencibles ejemplo /Pnale-Admin/)
