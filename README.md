@@ -1,4 +1,39 @@
 # LAB-Observatorio-del-Reloj-de-Sol
+
+**In englesh:**
+WebVerse Sundial Observatory LAB
+
+
+**Context:**
+The Sundial Observatory has been meeting on the second Saturday of every month since 1987 in a converted former park ranger station located on the Cascade Plateau. Pavel, a retired aerospace technician, manages the website from his garage. He is bothered by leaks, yet he believes—on principle—that politely asking search engines not to index the page is equivalent to keeping it private.
+
+**Vulnerability:**
+
+This challenge primarily involves an information disclosure vulnerability.
+
+
+1. Start the LAB and access the vulnerable website.
+
+![Screenshot 1](VirtualBox_kali-linux-2025.4-virtualbox-amd64_07_09_2026_21_06_35.png)
+
+(Before proceeding, let's clarify something.
+What is robots.txt?
+It is a text file that hides certain folders from search engine bots, although it is mostly used to protect sensitive folders—for example, /Panel-Admin/.)
+
+2. On the webpage, append the following path to the URL after the forward slash: `robots.txt`
+
+![Screenshot 2](Captura%20de%20pantalla%202026-09-07%20205641.png)
+
+3. In this text file, we can see multiple folder paths; for this LAB, the solution lies in the first path (though when analyzing potential vulnerabilities, it is best to investigate all possible folders in detail).
+
+4. Access the path, scroll down, and there is our flag.
+
+![Screenshot 3](Captura%20de%20pantalla%202026-09-07%20205708.png)
+
+
+
+**En español:**
+
 LAB-Observatorio del Reloj de Sol de WebVerse
 
 
